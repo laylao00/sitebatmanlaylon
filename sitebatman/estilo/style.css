@@ -73,7 +73,13 @@ color: #FFD700;
 padding: 10px;
 border-radius: 5px;
 text-decoration: none;
+font-weight: bold;
+transition-duration: 1s;
 }
+
+nav> a:hover{
+    background-color: var(--cor3);
+    }
 
 main {
 background-color: #1C1C1C;
