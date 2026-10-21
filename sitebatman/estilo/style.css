@@ -9,6 +9,13 @@
 --cor4: #F5F5F5;
 --cor5: #161616;
 
+--paletadoico1:#0D0D0D;
+--paletadoico2:#F26B1D;
+--paletadoico3:#F2B11D;
+--paletadoico4:#F29A2E;
+--paletadoico5:#F2D06B;
+
+
 --font-padrao: 'Roboto Slab';
 --font-destaque: 'Roboto Slab';
 }
@@ -41,7 +48,8 @@ header {
 background-image: linear-gradient(
 to bottom,
 #FFD700,
-#887400,
+#F2811D,
+#F26B1D,
 #0B0B0B
 );
 min-height: 200px;
@@ -54,7 +62,7 @@ color: #ffef12;
 font-family: var(--font-destaque);
 font-size: 3em;
 font-weight: normal;
-text-shadow: 2px 2px 4px black;
+text-shadow: 2px 2px 4px var(--paletadoico2);
 box-shadow: 1px 1px 1px 1px #FFD700;
 }
 
@@ -79,6 +87,7 @@ transition-duration: 1s;
 
 nav> a:hover{
     background-color: var(--cor3);
+    color: var(--cor4);
     }
 
 main {
@@ -91,6 +100,7 @@ margin: auto;
 
 h2, h3 {
 color: #FFD700;
+text-shadow: 2px 2px 4px var(--paletadoico2);
 box-shadow: 1px 1px 1px 1px #FFD700;
 }
 
@@ -110,4 +120,14 @@ ul{
     padding: 10px;
     margin: 10px;
     box-shadow: 1px 1px 1px 1px #FFD700;
+}
+
+main{
+    min-width: 300px;
+    max-width: 1000px;
+    margin: auto;
+    margin-bottom: 30px;
+    padding: 20px;
+    background-color: var(--paletadoico1);
+    box-shadow: 5px 5px 5px 5px var(--paletadoico1);
 }
